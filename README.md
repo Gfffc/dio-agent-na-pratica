@@ -74,24 +74,34 @@ Objetivo: [tirar uma ideia do papel].
 
 ## Minha entrega
 
-Edite este README pelo lápis, role até aqui e cole (Ctrl+V) um print de cada passo, sem dados pessoais.
-
 ### Configure
 
-_Cole o print do DIO Agent se apresentando._
+![DIO Agent se apresentando](images/01-configure.png)
 
 ### Estudar
 
-_Cole o print da explicação._
+Pedi para entender o que é uma skill e como o agente escolhe qual usar, partindo do meu nível (formado em ADS, mas sem nunca ter configurado um agente).
+
+![Explicação do conceito de skill](images/02-estudar.png)
 
 ### Praticar
 
-_Cole o print da dica que destravou você._
+Usei o desafio de exemplo da soma de 1 até N. O agente não entregou o código: explicou o conceito de acumulador, apontou a linha do problema e pediu um teste de mesa.
+
+![Dica que destravou o desafio](images/03-praticar.png)
 
 ### Planejar
 
-_Cole o print do seu plano de estudos._
+Como Trilha, usei a Formação Inteligência Artificial na Prática, da qual este desafio faz parte. O agente leu a página pública e montou o plano em cima dos módulos reais.
+
+![Plano de estudos](images/04-planejar.png)
+
+### Bônus: próximo passo na Carreira AI Builder
+
+Contei que quero construir uma ferramenta que corta vídeos longos em Shorts, escolhendo os trechos com IA.
+
+![Recomendação de próximo passo na Carreira AI Builder](images/05-bonus.png)
 
 ### Como foi para você
 
-_Conte em poucas linhas como foi usar o DIO Agent pela primeira vez._
+Rodei o DIO Agent num harness baseado no Claude Code, abrindo a pasta com o `AGENTS.md`. Ele se apresentou como DIO Agent logo na primeira mensagem, sem nenhuma configuração extra. O que mais me chamou atenção foi ver na prática que uma skill é só texto bem organizado: o agente lê a descrição de cada uma e escolhe sozinho qual seguir. No Praticar, gostei de ele não entregar a resposta e me fazer olhar para a linha `soma = i`. No Planejar, troquei o objetivo de 4 para 2 semanas, porque a Formação é curta e 1 hora por dia já dá conta. A recomendação do bônus, Desenvolvimento de SaaS com IA e Claude Code, fica como ponto de partida para a minha próxima escolha.
